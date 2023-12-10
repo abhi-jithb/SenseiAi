@@ -1,0 +1,56 @@
+{
+  "name": "extension",
+  "displayName": "SenseiAI",
+  "version": "0.0.1",
+  "description": "Extending Simplicity",
+  "author": "group 12",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fontsource/poppins": "^4.5.10",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.12.1",
+    "@parcel/optimizer-htmlnano": "^2.10.3",
+    "@plasmohq/messaging": "^0.2.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.0.3",
+    "openai": "^4.20.1",
+    "plasmo": "0.69.0",
+    "pnpm": "^8.12.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.10.0",
+    "stream-browserify": "^3.0.0",
+    "styles": "@material-ui/core/styles",
+    "svgo": "^3.0.5"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
+    "@types/chrome": "0.0.227",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "prettier": "2.8.7",
+    "typescript": "5.0.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*",
+      "*://senseai-api.onrender.com/*"
+    ],
+    "permissions": [
+      "tabs",
+      "contextMenus",
+      "storage",
+      "cookies"
+    ],
+    "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+  }
+}

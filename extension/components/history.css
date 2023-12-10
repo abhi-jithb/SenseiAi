@@ -1,0 +1,22 @@
+.boxH{
+    /* Basic styling and alignment */
+    margin: "30px";
+    border-radius:4px;
+    width:950px;
+    height:auto;
+      /* Basic styling and alignment */
+    /* For Neumorphism Effect */
+    background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+      /* For Neumorphism Effect */
+  }
+
+  .history{
+
+    border-radius:14px;
+    box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px  rgba(255,255,255, 0.5);
+
+      /* Basic styling and alignment */
+    /* For Neumorphism Effect */
+    background-color:#E0E5EC;
+  }
